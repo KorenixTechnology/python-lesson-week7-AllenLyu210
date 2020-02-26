@@ -11,7 +11,7 @@ def hw_week7(secret_number):
     elif secret_number < x:
       print('Your guess is too high.')
     else:
-      print('Good job! You guessed my number '+ str(y) +' in guesses!')
+      print('Good job! You guessed my number in '+ str(y) +' guesses!')
       break
 
 if __name__ == '__main__':
